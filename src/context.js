@@ -12,13 +12,13 @@ export const Context = (props) => {
 
 
     const getAllShoes = (title = '') => {
-        axios(`https://basketshoes.herokuapp.com/api/sneakers?title_like=${title}`)
+        axios(`https://phanti-sneakers.herokuapp.com/api/sneakers?title_like=${title}`)
             .then(({data}) => setShoes(data))
             .catch((err)  => console.log('Произошла ошибка') )
     };
 
     const getAllFavorites = () => {
-        axios.get('https://basketshoes.herokuapp.com/api/favorites')
+        axios.get('https://phanti-sneakers.herokuapp.com/api/favorites')
             .then(({data}) => setFavorites(data))
             .catch((err) => console.log('Error'))
     };
@@ -26,18 +26,18 @@ export const Context = (props) => {
 
 
     const postFavorites = (item) => {
-        axios.post('https://basketshoes.herokuapp.com/api/favorites', {...item})
+        axios.post('https://phanti-sneakers.herokuapp.com/api/favorites', {...item})
             .then(() => getAllFavorites())
     };
 
     const getAllOrders = () => {
-        axios.get('https://basketshoes.herokuapp.com/api/orders')
+        axios.get('https://phanti-sneakers.herokuapp.com/api/orders')
             .then(({data}) => setOrders(data))
             .catch((err) => console.log('Error'))
     };
 
     const postOrders = (item) => {
-        axios.post('https://basketshoes.herokuapp.com/api/orders', {...item})
+        axios.post('https://phanti-sneakers.herokuapp.com/api/orders', {...item})
             .then(() => getAllOrders())
     };
 
