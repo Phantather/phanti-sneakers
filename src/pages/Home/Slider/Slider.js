@@ -9,13 +9,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 
 const Slider = () => {
-const {slider,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo,sliderArrowRight,sliderArrowIcon} = styles;
+const {slider,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo,sliderArrowRight} = styles;
     return (
         <section className={slider}>
-            <Swiper navigation={true} loop={true} modules={[Navigation]} className="mySwiper">
+            <Swiper  navigation={true}
+                     modules={[Navigation, Autoplay]}
+                     loop={true}
+                     spaceBetween={30}
+                     centeredSlides={true}
+                     autoplay={{ delay: 2500}}
+                     speed={1500}
+                     className="mySwiper">
                 <SwiperSlide>
                     <div className={sliderContent}>
                         <div className={sliderLeft}>
