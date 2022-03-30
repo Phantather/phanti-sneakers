@@ -1,0 +1,150 @@
+
+.section{
+    padding-bottom: 50px;
+}
+
+.back {
+    display: flex;
+    column-gap: 15px;
+}
+
+.arrow {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    width: calc(50% - 15px);
+    border: 1px solid #8BB43C;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.id{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.list{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.listItem{
+    list-style-type: square;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.listItemImg{
+    width: 60px;
+    height: 60px;
+}
+.listItemInfo{
+
+}
+
+.listItemTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.listItemPrice{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+
+}
+.price{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+
+.emptyRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    height: 80vh;
+}
+
+.emptySmiley {
+    font-size: 50px;
+}
+
+.emptyTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.emptySubtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.emptyBtn {
+    background: #9DD458;
+    border-radius: 18px;
+    padding: 19px 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}

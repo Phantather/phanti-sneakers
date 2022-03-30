@@ -1,0 +1,111 @@
+.title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #000000;
+    margin: 40px 0;
+}
+.row{
+
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cardImg{
+    width: 100%;
+}
+.card{
+    border: 1px solid #F3F3F3;
+    border-radius: 40px;
+    width: calc(25% - 30px);
+    padding: 20px 30px 34px;
+    transition: .5s;
+}
+
+.card:hover {
+    border: 1px solid #8BB43C;
+    transition: .5s;
+    transform: translateY(-15px);
+    box-shadow: 0 14px 30px rgba(139, 180, 60, 0.5);
+}
+
+.cardLike {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #8BB43C;
+    color: #8BB43C;
+    box-sizing: border-box;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 14px 0;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.cardPriceTitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.cardPriceNum{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.cardBtn{
+    background: #FFFFFF;
+    border: 1px solid #8BB43C;
+    border-radius: 8px;
+    color: #8BB43C;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    outline: none;
+    width: 250px;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: black;
+    padding-left: 10px;
+}
+
+.search::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #C4C4C4;
+}

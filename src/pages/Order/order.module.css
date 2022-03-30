@@ -1,0 +1,168 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.formItem{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formInput{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #8BB43C;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 15px;
+    resize: none;
+}
+
+.formTextArea {
+    width: 200px;
+    height: 60px;
+    border: 1px solid #8BB43C;
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+    resize: none;
+}
+
+.formSelect {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #8BB43C;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.checkbox {
+    margin-right: 6px;
+}
+
+.formBtn {
+    height: 45px;
+    border-radius: 30px;
+    background-color: #8BB43C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.right {
+    width: 40%;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.item{
+    border: 1px solid #8BB43C;
+    border-radius: 20px;
+    padding: 15px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemImg{
+    width: 70px;
+    height: 70px;
+}
+
+.itemCenter{
+    width: 150px;
+}
+
+.itemTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.itemPrice{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.itemBtn{
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #8BB43C;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.itemBtn svg path {
+    transition: .3s;
+    fill: #8BB43C;
+}
+
+.itemBtn:hover{
+    transition: .3s;
+    background: #FEF0F0;
+    border: 1px solid #FEF0F0;
+}
+
+.itemBtn:hover svg path {
+    transition: .3s;
+    fill: #FF8585;
+}
+
+.cartFooterItem{
+    display: flex;
+    column-gap: 9px;
+    align-items: flex-end;
+    margin-bottom: 22px;
+}
+
+.cartFooterTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.cartFooterLine{
+    border-bottom: 1px dashed #dfdfdf;
+    max-width: 155px;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+{
+  "name": "bascket-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^0.26.1",
+    "debounce": "^1.2.1",
+    "json-server": "^0.17.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.28.1",
+    "react-icons": "^4.3.1",
+    "react-lazy-load-image-component": "^1.5.3",
+    "react-router-dom": "6",
+    "react-scripts": "5.0.0",
+    "swiper": "^8.0.7",
+    "web-vitals": "^2.1.0",
+    "webfont": "^11.2.26"
+  },
+  "scripts": {
+    "start": "node server",
+    "client": "react-scripts start",
+    "server": "json-server --watch db.json --port 8080",
+    "dev": "concurrently \"yarn client\" \"yarn server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
