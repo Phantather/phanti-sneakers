@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper";
 
 const Slider = () => {
-const {slider,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo,sliderArrowRight} = styles;
+const {slider,sliderLeft,sliderTitle,sliderBtn,sliderContent,sliderInfo} = styles;
     return (
         <section className={slider}>
             <Swiper  navigation={true}

@@ -12,9 +12,8 @@ html{
 }
 
 .App {
-    padding-top: 85px;
     min-height: 100vh;
-    padding-bottom: 75px;
+    padding: 85px 25px 75px
 }
 
 
@@ -39,4 +38,10 @@ html{
     transform: rotate(180deg)!important;
     font-size: 15px !important;
     color: grey!important;
+}
+
+@media (max-width: 769px) {
+    .swiper {
+        display: none !important;
+    }
 }

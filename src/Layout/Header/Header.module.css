@@ -66,3 +66,18 @@
     align-items: center;
     column-gap: 10px;
 }
+
+
+@media (max-width: 577px) {
+    .headerNav {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 321px) {
+    .headerNav {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

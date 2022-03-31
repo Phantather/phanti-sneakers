@@ -109,3 +109,34 @@
     line-height: 17px;
     color: #C4C4C4;
 }
+
+
+@media (max-width: 992px) {
+    .card {
+        width: calc(33.33333% - 26.66666px);
+    }
+}
+
+
+@media (max-width: 641px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 577px) {
+    .action {
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 20px;
+    }
+    .title {
+        margin: 0;
+    }
+}
+
+@media (max-width: 426px) {
+    .card {
+        width: 100%;
+    }
+}
