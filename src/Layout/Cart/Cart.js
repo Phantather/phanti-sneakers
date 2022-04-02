@@ -68,16 +68,15 @@ const Cart = ({isCart, setIsCart}) => {
                             <h2 className={styles.cartTitle}>Корзина</h2>
                             <div className={styles.emptyRow}><img src={cartBox} alt="cart box"/>
                                 <h3 className={styles.emptyTitle}>Корзина пустая</h3>
-                                <p className={styles.emptySubtitle}>Добавьте хотя бы одну пару <br/> кроссовок, чтобы сделать заказ.</p>
-                                <button className={styles.emptyBtn} type='button' onClick={() => setIsCart(false)}> ← Вернуться назад</button>
+                                <p className={styles.emptySubtitle}>Добавьте хотя бы одну пару <br/> кроссовок, чтобы
+                                    сделать заказ.</p>
+                                <button className={styles.emptyBtn} type='button' onClick={() => setIsCart(false)}> ←
+                                    Вернуться назад
+                                </button>
                             </div>
-
                         </div>
                 }
-
-
             </div>
-
         </div>
     );
 };

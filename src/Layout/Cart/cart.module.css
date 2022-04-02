@@ -213,3 +213,15 @@
     cursor: pointer;
     border: none;
 }
+
+@media (max-width: 426px) {
+    .cart {
+        width: 300px;
+    }
+}
+
+@media (max-width: 321px) {
+    .cart {
+        width: 280px;
+    }
+}

@@ -166,3 +166,36 @@
     max-width: 155px;
     width: 100%;
 }
+
+@media (max-width: 769px) {
+    .row {
+        flex-direction: column;
+    }
+    .right {
+        width: 60%;
+        order: -1;
+        margin: 0 auto 30px;
+    }
+    .form {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width: 577px) {
+    .right {
+        width: 100%;
+        order: -1;
+        margin: 0 auto 30px;
+    }
+    .form {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .formItem {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

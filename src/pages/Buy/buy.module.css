@@ -148,3 +148,9 @@
     cursor: pointer;
     border: none;
 }
+
+@media (max-width: 769px) {
+    .card {
+        width: 100%;
+    }
+}
